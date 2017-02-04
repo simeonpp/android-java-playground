@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="RedText">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="myGreenButton" parent="RedText">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">#00FF00</item>
+    </style>
 </resources>

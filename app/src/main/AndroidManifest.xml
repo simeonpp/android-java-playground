@@ -8,7 +8,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".activities.UIComponentsActivity"
+            android:label="Superheros"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".activities.SimpleListActivity">
+        </activity>
+        <activity
+            android:name=".activities.ListActivity"
+            android:label="@string/title_activity_list">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
