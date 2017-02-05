@@ -11,18 +11,37 @@
         <activity
             android:name=".activities.UIComponentsActivity"
             android:label="Superheros"
-            android:theme="@style/AppTheme">
-        </activity>
-        <activity android:name=".activities.SimpleListActivity">
-        </activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.SimpleListActivity" />
         <activity
             android:name=".activities.ListActivity"
             android:label="@string/title_activity_list">
+        </activity>
+        <activity
+            android:name=".activities.layouts.LinearLayoutActivity"
+            android:label="@string/title_activity_linear_layout" />
+        <activity
+            android:name=".activities.layouts.RelativeLayoutActivity"
+            android:label="@string/title_activity_relative_layout" />
+        <activity
+            android:name=".activities.navigation.simple.NavigationSimplePage1Activity"
+            android:label="@string/title_activity_navigation_simple_page1">
+        </activity>
+        <activity
+            android:name=".activities.navigation.simple.NavigationSimplePage2Activity"
+            android:label="@string/title_activity_navigation_simple_page2" />
+        <activity
+            android:name=".activities.navigation.object.NavigationObjectPage1Activity"
+            android:label="@string/title_activity_navigation_object_page1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.navigation.object.NavigationObjectPage2Activity"
+            android:label="@string/title_activity_navigation_object_page2">
         </activity>
     </application>
 

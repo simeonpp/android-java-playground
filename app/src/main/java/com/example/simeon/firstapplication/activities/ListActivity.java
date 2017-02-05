@@ -31,19 +31,39 @@ public class ListActivity extends Activity {
 
         Superhero[] superheroes = {
             new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
+            new Superhero("bl-wi", "Black Widow", "Natasha Romanoff"),
+            new Superhero("bat-man", "Batman", "Bruce Wayne"),
             new Superhero("bl-wi", "Black Widow", "Natasha Romanoff")
         };
 
         ListView lvSuperheroes = (ListView) this.findViewById(R.id.lv_superheroes);
+
         // Create adapter
-        lvSuperheroes.setAdapter(new ArrayAdapter<Superhero>(this, -1, superheroes) {
+        ArrayAdapter<Superhero> superheroesAdapter = new ArrayAdapter<Superhero>(this, -1, superheroes) {
             @NonNull
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
-                Superhero currentSuperhero = this.getItem(position);
+                View view = convertView;
+                if (view == null) {
+                    LayoutInflater inflater = LayoutInflater.from(this.getContext());
+                    view = inflater.inflate(R.layout.item_superhero, parent, false);
+                }
 
-                LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                View view = inflater.inflate(R.layout.item_superhero, null);
+                Superhero currentSuperhero = this.getItem(position);
 
                 TextView tvName = (TextView) view.findViewById(R.id.tv_superhero_name);
                 tvName.setText(currentSuperhero.getName());
@@ -53,7 +73,9 @@ public class ListActivity extends Activity {
 
                 return view;
             }
-        });
+        };
+
+        lvSuperheroes.setAdapter(superheroesAdapter);
 
         lvSuperheroes.setOnItemClickListener((parent, view, position, id) -> {
             TextView tvName = (TextView) view.findViewById(R.id.tv_superhero_name);
