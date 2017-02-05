@@ -24,7 +24,7 @@ public class NavigationObjectPage1Activity extends Activity {
             Book book = new Book(etISBN.getText().toString(), etTitle.getText().toString());
 
             Intent intent = new Intent(this, NavigationObjectPage2Activity.class);
-            intent.putExtra(NavigationObjectPage2Activity.BOOK_KEY, book);
+            intent.putExtra(NavigationObjectPage2Activity.BOOK_KEY, book); // Book model should implement Serializable interface
 
             this.startActivity(intent);
         });

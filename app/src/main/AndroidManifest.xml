@@ -15,8 +15,7 @@
         <activity android:name=".activities.SimpleListActivity" />
         <activity
             android:name=".activities.ListActivity"
-            android:label="@string/title_activity_list">
-        </activity>
+            android:label="@string/title_activity_list" />
         <activity
             android:name=".activities.layouts.LinearLayoutActivity"
             android:label="@string/title_activity_linear_layout" />
@@ -25,14 +24,28 @@
             android:label="@string/title_activity_relative_layout" />
         <activity
             android:name=".activities.navigation.simple.NavigationSimplePage1Activity"
-            android:label="@string/title_activity_navigation_simple_page1">
-        </activity>
+            android:label="@string/title_activity_navigation_simple_page1" />
         <activity
             android:name=".activities.navigation.simple.NavigationSimplePage2Activity"
             android:label="@string/title_activity_navigation_simple_page2" />
         <activity
             android:name=".activities.navigation.object.NavigationObjectPage1Activity"
-            android:label="@string/title_activity_navigation_object_page1">
+            android:label="@string/title_activity_navigation_object_page1" />
+        <activity
+            android:name=".activities.navigation.object.NavigationObjectPage2Activity"
+            android:label="@string/title_activity_navigation_object_page2" />
+        <activity
+            android:name=".activities.fragments.SimpleFragmentActivity"
+            android:label="@string/title_activity_simple_fragment" />
+        <activity
+            android:name=".activities.fragments.StudentListFragmentActivity"
+            android:label="@string/title_activity_list_fragment"></activity>
+        <activity
+            android:name=".activities.fragments.StudentDetailsFragmentActivity"
+            android:label="@string/title_activity_student_details_fragment" />
+        <activity
+            android:name=".activities.masterDetailsPhoneAndTablet.ListAnimalsActivity"
+            android:label="@string/title_activity_list_animals">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,9 +53,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.navigation.object.NavigationObjectPage2Activity"
-            android:label="@string/title_activity_navigation_object_page2">
-        </activity>
+            android:name=".activities.masterDetailsPhoneAndTablet.DetailsAnimalActivity"
+            android:label="@string/title_activity_details_animal"></activity>
     </application>
 
 </manifest>
