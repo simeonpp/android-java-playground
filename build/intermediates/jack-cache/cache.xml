@@ -26,6 +26,12 @@
         <dex dex="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ca6bea7a5ccb4236f93866c85f603f79ba758341.jar" />
     </item>
     <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        revision="24.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okhttp-3.6.0-fe139e2cbed25de219f905de8bb5e958629b042c.jar" />
+    </item>
+    <item
         jar="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         revision="24.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
@@ -60,6 +66,18 @@
         revision="24.0.0"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-76d9413afe43fa5c8b258951b8b06a91da08b2ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        revision="24.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okio-1.11.0-799479707ba23dab01ed86ede99e0a55b5bd932d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        revision="24.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.8.0-4f4ae65dd1362257f9b18659964177050cea4c5e.jar" />
     </item>
     <item
         jar="D:\Projects\Mobile\Android\android-java-playground\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"

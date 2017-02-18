@@ -5,15 +5,15 @@ const Hapi = require('hapi');
 // Create a server with a host and port
 const server = new Hapi.Server();
 server.connection({ 
-    host: 'localhost', 
+    host: '192.168.0.103', 
     port: 8000 
 });
 
 var books = [
-    { id: 1, title: "To Kill a Mockingbird" },
-    { id: 2, title: "Pride and Prejudice" },
-    { id: 3, title: "The Book Thief" },
-    { id: 4, title: "Gone with the Wind" },
+    { ISBN: 1, title: "To Kill a Mockingbird" },
+    { ISBN: 2, title: "Pride and Prejudice" },
+    { ISBN: 3, title: "The Book Thief" },
+    { ISBN: 4, title: "Gone with the Wind" },
 ];
 
 // Add books route
@@ -21,7 +21,10 @@ server.route({
     method: 'GET',
     path:'/api/books', 
     handler: function (request, reply) {
-        return reply(books);
+        setTimeout(() => {
+            // Simulate slow network
+            return reply(books);
+        }, 3500);
     }
 });
 
@@ -32,12 +35,15 @@ server.route({
     handler: function (request, reply) {
         var bookId = +request.params.id;
         var book = books.find((book) => {
-            return book.id === bookId;
+            return book.ISBN === bookId;
         });
         if (book) {
-            return reply(book);
+            setTimeout(() => {
+            // Simulate slow network
+                return reply(book);
+            }, 3500);
         } else {
-            return reply({id: 0, title: 'Unknown'});
+            return reply({ISBN: 0, title: 'Unknown'});
         }
     }
 });

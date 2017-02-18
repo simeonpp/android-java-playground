@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.simeon.firstapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -39,22 +41,24 @@
             android:label="@string/title_activity_simple_fragment" />
         <activity
             android:name=".activities.fragments.StudentListFragmentActivity"
-            android:label="@string/title_activity_list_fragment"></activity>
+            android:label="@string/title_activity_list_fragment" />
         <activity
             android:name=".activities.fragments.StudentDetailsFragmentActivity"
             android:label="@string/title_activity_student_details_fragment" />
         <activity
             android:name=".activities.masterDetailsPhoneAndTablet.ListAnimalsActivity"
-            android:label="@string/title_activity_list_animals">
+            android:label="@string/title_activity_list_animals"></activity>
+        <activity
+            android:name=".activities.masterDetailsPhoneAndTablet.DetailsAnimalActivity"
+            android:label="@string/title_activity_details_animal" />
+        <activity android:name=".activities.htppRequests.HttpRequester">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activities.masterDetailsPhoneAndTablet.DetailsAnimalActivity"
-            android:label="@string/title_activity_details_animal"></activity>
+        <activity android:name=".activities.htppRequests.HttpBookDetailsActivity"></activity>
     </application>
 
 </manifest>

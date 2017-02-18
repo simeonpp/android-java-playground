@@ -16,3 +16,10 @@ hs_err_pid*
 
 # Gradle folder
 .gradle/
+
+# Webapi vscode
+webapi/.vscode
+
+# Webapi node modules
+webapi/node_modules
+
