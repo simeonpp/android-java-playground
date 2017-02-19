@@ -48,6 +48,30 @@ server.route({
     }
 });
 
+// Add book create route
+server.route({
+    method: 'POST',
+    path:'/api/book', 
+    handler: function (request, reply) {        
+        var ISBN = parseInt(request.payload.ISBN);
+        var title = request.payload.title;
+
+        if (!ISBN || !title) {
+            return reply({error: 'Invalid params'});
+        }
+
+        var isbnExists = books.find((book) => {
+            return book.ISBN === ISBN;
+        });
+        if (isbnExists) {
+            return reply({error: "Book already exists"});
+        }
+
+        books.push({ISBN, title});
+        return reply({success: 'Book added'});
+    }
+});
+
 // Start the server
 server.start((err) => {
 
