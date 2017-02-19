@@ -47,18 +47,21 @@
             android:label="@string/title_activity_student_details_fragment" />
         <activity
             android:name=".activities.masterDetailsPhoneAndTablet.ListAnimalsActivity"
-            android:label="@string/title_activity_list_animals"></activity>
+            android:label="@string/title_activity_list_animals" />
         <activity
             android:name=".activities.masterDetailsPhoneAndTablet.DetailsAnimalActivity"
             android:label="@string/title_activity_details_animal" />
-        <activity android:name=".activities.htppRequests.HttpRequester">
+        <activity android:name=".activities.htppSimpleRequests.HttpRequester" />
+        <activity android:name=".activities.htppSimpleRequests.HttpBookDetailsActivity" />
+        <activity android:name=".activities.httpRequests.ListBooksHttpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.htppRequests.HttpBookDetailsActivity"></activity>
+        <activity android:name=".activities.httpRequests.BookDetailsHttpActivity" />
+        <activity android:name=".activities.httpRequests.CreateBookHttpActivity"></activity>
     </application>
 
 </manifest>

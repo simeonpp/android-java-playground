@@ -1,6 +1,7 @@
 'use strict';
 
 const Hapi = require('hapi');
+const timeSimulatingNetworkLatency = 3500;
 
 // Create a server with a host and port
 const server = new Hapi.Server();
@@ -21,10 +22,11 @@ server.route({
     method: 'GET',
     path:'/api/books', 
     handler: function (request, reply) {
+        console.log("Fetching books");
         setTimeout(() => {
             // Simulate slow network
             return reply(books);
-        }, 3500);
+        }, timeSimulatingNetworkLatency);
     }
 });
 
@@ -37,11 +39,12 @@ server.route({
         var book = books.find((book) => {
             return book.ISBN === bookId;
         });
+        console.log("Getting book info: " + bookId);
         if (book) {
             setTimeout(() => {
             // Simulate slow network
                 return reply(book);
-            }, 3500);
+            }, timeSimulatingNetworkLatency);
         } else {
             return reply({ISBN: 0, title: 'Unknown'});
         }
@@ -67,8 +70,14 @@ server.route({
             return reply({error: "Book already exists"});
         }
 
-        books.push({ISBN, title});
-        return reply({success: 'Book added'});
+        var bookToAdd = {ISBN, title}
+        books.push(bookToAdd);
+        console.log("New book added");
+        console.log(bookToAdd);
+        setTimeout(() => {
+            // Simulate slow network
+            return reply(bookToAdd);
+        }, timeSimulatingNetworkLatency);
     }
 });
 
