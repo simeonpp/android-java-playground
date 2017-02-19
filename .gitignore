@@ -12,10 +12,10 @@
 hs_err_pid*
 
 # Ideal folder
-.idea/
+singleExamples/idea/
 
 # Gradle folder
-.gradle/
+singleExamples/gradle/
 
 # Webapi vscode
 webapi/.vscode

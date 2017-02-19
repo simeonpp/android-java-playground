@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1932075f01a1bce88c100ae06b8046288fe21f29.jar" />
+    </item>
+    <item
+        jar="D:\Applications\AndroidSDK\platforms\android-24\android.jar"
+        revision="24.0.0"
+        sha1="d49cc0972df7adf495d3ad3d0cf71c0ec517ace4">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-8bd7ee81c28f26928c38c474bfbec32353e1dad4.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-a959b2c9ed18a005d44287a16072ccf934dda947.jar" />
+    </item>
+    <item
+        jar="D:\Applications\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-24.2.1-1a4285071da43313dda9587a73e0f2d08f017316.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        revision="24.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okio-1.11.0-799479707ba23dab01ed86ede99e0a55b5bd932d.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\singleExamples\data\unspecified\jars\classes.jar"
+        revision="24.0.0"
+        sha1="4bb21907273da4d8bd63426ee4586a6ab283a2c5">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-de290a09ca8950107904ddc3451398a6dc1ea3e7.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9602be4dd84dce86e70541ce23f6afacc87aeaac.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-39b00448368b95234b46632b80755754677edd48.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-57baf3931d12ff5d4fd7e620caa9524c7a5c44c8.jar" />
+    </item>
+    <item
+        jar="D:\Applications\AndroidSDK\platforms\android-24\optional\org.apache.http.legacy.jar"
+        revision="24.0.0"
+        sha1="fb7023e781abb70ed1b0442eb611fbed295cae84">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-4cdb9e4a4e76a1560b24df72c8e6e70aa852aa04.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-af4178deb06f0bd4afc19c7a9f82c20cf51c3f43.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        revision="24.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\okhttp-3.6.0-fe139e2cbed25de219f905de8bb5e958629b042c.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-89b58acdf3e1aeb9b33ecd01a8cfe5603d8dda81.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2b2091a976817b6e5173145672267a46019ef7e5.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-40cced2a0480640c4baa3f743df02651dbf43080.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-58589625331332bf88922fa209d864d09525eda7.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-032ee1e856f6083955d1c9e1757f889a1ab80547.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-534afecd18f90e5caf31e29be2f2cad5b1444bf7.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-c58b701261ac87aa1c128589c0fd5627a769098d.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\io.reactivex.rxjava2\rxandroid\2.0.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-52683f4478420e0a856c99efee57ad3356e11019.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        revision="24.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.8.0-4f4ae65dd1362257f9b18659964177050cea4c5e.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        revision="24.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a5131a007035cb75a094fbba875bdacda260764d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        revision="24.0.0"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\reactive-streams-1.0.0-6e02a58742dc3d0391fb05b46be49ffe24098a70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Simeon\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.1\57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb\rxjava-2.0.1.jar"
+        revision="24.0.0"
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\rxjava-2.0.1-8d2da9ee4e0f451340b8f3bd78b654e8640b6429.jar" />
+    </item>
+    <item
+        jar="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\exploded-aar\com.github.johnpersano\supertoasts\2.0\jars\classes.jar"
+        revision="24.0.0"
+        sha1="8f30f0d083aa1d28b5fd24626c2449588e15ed70">
+        <dex dex="D:\Projects\Mobile\Android\android-java-playground\singleExamples\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0aa760b5841675a8de547874b8cfa68498172c84.jar" />
+    </item>
+
+</items>
