@@ -53,11 +53,13 @@
             android:label="@string/title_activity_details_animal" />
         <activity android:name=".activities.htppSimpleRequests.HttpRequester" />
         <activity android:name=".activities.htppSimpleRequests.HttpBookDetailsActivity" />
-        <activity android:name=".activities.httpRequests.ListBooksHttpActivity">
-        </activity>
+        <activity android:name=".activities.httpRequests.ListBooksHttpActivity"></activity>
         <activity android:name=".activities.httpRequests.BookDetailsHttpActivity" />
         <activity android:name=".activities.httpRequests.CreateBookHttpActivity" />
         <activity android:name=".activities.dataLayer.TestHttpActivity">
+
+        </activity>
+        <activity android:name=".activities.httpRequestsImagesWithDataLayer.ListBooksWithImagesHttpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
